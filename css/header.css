@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 15px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
